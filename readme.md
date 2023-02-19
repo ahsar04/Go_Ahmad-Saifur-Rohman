@@ -1,0 +1,4 @@
+- belajar tentang dasar-dasar golang seperti variabel, tipe data, operator, perulangan dan percabangan
+- melakukan praktikum dengan mencoba beberapa study kasus
+- menerapkan algoritma pada pemograman
+- mapping data rune untuk membalik kata (palindrome)

@@ -1,0 +1,3 @@
+- pertemuan pertama shering dengan mentor tentang pengalaman dunia kerja
+- membahas mengenai algoritma dan penerapan didunia nyata
+- mempelajari tentang flowchart dan penerapannya dengan beberapa study kasus
