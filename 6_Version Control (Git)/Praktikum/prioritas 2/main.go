@@ -1,8 +1,9 @@
 package main
-import(
+
+import (
 	"fmt"
 )
 func main()  {
 	fmt.Print("hello world")
-	fmt.Print("coba branching")
+	fmt.Print("coba belajar branching")
 }
