@@ -28,7 +28,7 @@ func mostUpperItem(items []string) []pair {
 	n := len(results)
 	for i := 0; i < n-1; i++ {
 		for j := 0; j < n-i-1; j++ {
-			if results[j].count < results[j+1].count {
+			if results[j].count > results[j+1].count {
 				results[j], results[j+1] = results[j+1], results[j]
 			}
 		}
