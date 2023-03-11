@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"math"
-	// "sort"
 )
 
 func simpleEquations(a, b, c int){
