@@ -1,5 +1,7 @@
-# Intro Echo Golang
+#ORM DAN CODE STRUCTURE (MVC)#
 
-`Echo` adalah sebuah `framework` web yang ditulis menggunakan bahasa pemrograman `Go` (Golang) yang sangat ringan dan cepat. Framework ini memungkinkan para pengembang untuk membuat aplikasi web dengan mudah dan cepat. Echo menyediakan fitur-fitur seperti `routing`, `rendering`, dan `middleware` yang dapat membantu para pengembang dalam mengembangkan aplikasi web dengan lebih mudah dan efisien.
+- ORM (Object-Relational Mapping) adalah teknik dalam pengembangan perangkat lunak untuk `memetakan data` dari database relasional ke dalam objek-objek yang bisa diakses oleh bahasa pemrograman yang digunakan. Dalam bahasa Go, terdapat beberapa ORM yang populer, seperti `GORM`, `XORM`, dan `QBS`.
 
-Echo sangat cocok untuk membuat aplikasi web dengan skala kecil hingga menengah, seperti aplikasi CRUD, RESTful API, dan aplikasi web yang sederhana. Selain itu, Echo juga mendukung pengembangan aplikasi web dengan pola arsitektur MVC `(Model-View-Controller)`.
+- Sementara itu, code structure dalam bahasa Go biasanya mengikuti pola `MVC` (Model-View-Controller). Dalam MVC, `Model` mewakili data atau objek, `View` bertanggung jawab atas tampilan, dan `Controller` sebagai pengontrol atau penghubung antara Model dan View. Penerapan MVC pada Go dapat membantu `mengorganisir` kode menjadi lebih `terstruktur` dan mudah dipelihara.
+
+- Dalam MVC, `Model` biasanya berisi definisi `struktur data` atau tabel dalam database, seperti user atau blog, serta fungsi-fungsi untuk membaca atau mengubah data dalam database. `View` berisi `tampilan` atau halaman-halaman yang menampilkan data dari Model. Sedangkan `Controller` berfungsi sebagai `penghubung` antara Model dan View, yang bertanggung jawab atas `logika` bisnis dan aksi-aksi yang terjadi pada data.
