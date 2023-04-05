@@ -113,10 +113,10 @@ func LoginUserController(c echo.Context) error {
 			"error" : err.Error(),
 		})
 	}
-	userResponse := models.UserResponse(user.ID, user.Name, user.Email, token)
+	userResponse := models.UserResponse{user.ID, user.Name, user.Email, token}
     return c.JSON(http.StatusOK, map[string]interface{}{
         "status":  http.StatusOK,
-        "message": "success create new user",
+        "message": "success login",
         "user":    userResponse,
     })
 }
