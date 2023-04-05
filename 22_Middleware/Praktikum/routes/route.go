@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"code_structure/controllers"
 	"code_structure/constants"
+	"code_structure/controllers"
 	m "code_structure/middlewares"
 
 	"github.com/labstack/echo"
@@ -17,7 +17,7 @@ func New() *echo.Echo{
 	m.LogMiddleware(e)
 	
 	eJWT := e.Group("/")
-	eJWT.Use(mid.JWT(constants.SECRET_JWT))
+	eJWT.Use(mid.JWT([]byte(constants.SECRET_JWT)))
 	// e.GET("/users", controllers.GetUsersController)
 	eJWT.GET("users", controllers.GetUsersController)
 	eJWT.GET("users/:id", controllers.GetUserController)

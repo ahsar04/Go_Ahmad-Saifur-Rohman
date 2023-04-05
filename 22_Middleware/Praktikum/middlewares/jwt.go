@@ -4,11 +4,11 @@ import (
 	"code_structure/constants"
 	"time"
 
-	"github.com/dgrijalva/jwt-go"
+	jwt "github.com/dgrijalva/jwt-go"
 )
 
 func CreateToken(userId int, name string) (string, error) {
-	claims := jwt.MapClaims{}
+	claims :=jwt.MapClaims{}
 	claims["user_id"]=userId
 	claims["name"]=name
 	claims["exp"]=time.Now().Add(time.Hour*1).Unix()
