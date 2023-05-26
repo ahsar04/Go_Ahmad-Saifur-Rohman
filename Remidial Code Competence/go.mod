@@ -1,4 +1,4 @@
-module capston-lms
+module remidial
 
 go 1.20
 
